@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login detail</title>
+	<link rel="stylesheet" href="css/all.css">
+	<style>
+		body
+		{
+			background-image: url(img/nature.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#login
+		{
+			width: 320px;
+			background:linear-gradient(30deg,orange,blue,green);
+			margin: 50px auto;
+			text-align: center;
+			color: white;
+			border-radius: 20px;
+			box-shadow: 0 0 10px white;
+		}
+		.form-group input[type='text'],
+		.form-group input[type='password'],
+		.form-group input[type='number'],
+		.form-group select
+		{
+			height: 25px;
+			margin-top: 10px;
+			border:none;
+			outline: none;
+			background:none;
+			border-bottom:3px solid white;
+			color: black;
+			font-size: 13px;
+		}
+		::placeholder
+		{
+			width: 173px;
+			color: white;
+		}
+		select
+		{
+			width: 173px;
+			color: white;
+
+		}
+		.form-group input[type='submit']
+		{
+			margin:20px;
+			width: 173px;
+			border-radius: 10px;
+			height: 25px;
+			outline: none;
+			border:none;
+			background:linear-gradient(34deg,green,orange,blue);
+		}
+
+		.form-group input[type='submit']:hover
+		{
+			box-shadow:0 0 10px white;
+			cursor: pointer; 
+		}
+		{
+			box-shadow: 0 0 10px white;
+			cursor: pointer;
+		}
+		.fa
+		{
+			width: 25px;
+			height: 25px;
+		}
+	</style>
+</head>
+<body>
+<div id="login">
+	<div><i class="fas fa-users"></i></div>
+		<h1>Login Here</h1>
+		<div class="form-group"><input type="text" placeholder="UserName"></div>
+		<div class="form-group"><input type="text" placeholder="EmailID"></div>
+		<div class="form-group"><input type="text" placeholder="Password"></div>
+         <div class="form-group"><input type="text" placeholder="MobileNumber"></div>
+         <div class="form-group"><select>
+         	<option>Select Designation</option>
+         	<option>Maneger</option>
+         	<option>Sr. s/w Eng.</option>
+            <option>Jr.s/w Eng.</option>
+            <option>General Maneger</option>
+            <option>Floor Maneger</option>
+            <option>Accountant</option>
+         </select></div>
+         <div class="form-group"><input type="Submit"></div>
+	
+</div>
+</body>
+</html>
